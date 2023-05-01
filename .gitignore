@@ -5,29 +5,29 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/CMS/wp-admin/
-/CMS//wp-content/index.php
-/CMS//wp-content/languages
-/CMS//wp-content/plugins/index.php
-/CMS//wp-content/themes/index.php
-/CMS//wp-includes/
-/CMS//index.php
-/CMS//license.txt
-/CMS//readme.html
-/CMS//wp-*.php
-/CMS//xmlrpc.php
+/CMS/wp-admin/*
+/CMS/wp-content/index.php
+/CMS/wp-content/languages
+/CMS/wp-content/plugins/index.php
+/CMS/wp-content/themes/index.php
+/CMS/wp-includes/
+/CMS/index.php
+/CMS/license.txt
+/CMS/readme.html
+/CMS/wp-*.php
+/CMS/xmlrpc.php
 
 # Configuration
 /CMS/wp-config.php
 /CMS/wp-config-sample.php
 # Example themes
-/wp-content/themes/twenty*/
+/CMS/wp-content/themes/twenty*/
 
 # Example plugin
-/wp-content/plugins/hello.php
+/CMS/wp-content/plugins/hello.php
 
 # Uploads
-/wp-content/uploads/
+/CMS/wp-content/uploads/
 
 # Log files
 *.log
@@ -39,7 +39,7 @@
 #
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-/wp-content/plugins
+/CMS/wp-content/plugins
 
 # All themes
 #
